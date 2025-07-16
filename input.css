@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+[id] {
+  scroll-margin-top: 5rem;
+}
