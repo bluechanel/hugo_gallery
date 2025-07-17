@@ -38,11 +38,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
-.open-next
-.wrangler
-.contentlayer
-example
-scripts
-themes/Gallery
 .hugo_build.lock

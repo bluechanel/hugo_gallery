@@ -30,6 +30,7 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
+  hideFooter: true
 
 
   assets:
