@@ -18,7 +18,7 @@ params:
   author: Wiley Zhang
   description: "hugo theme"
   keywords: ['AI', 'LLM', 'Machine Learning', 'Artificial Intelligence', 'Developer Blog', 'Technical Writing', 'Programming']
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["bryce-canyon.jpg"]  # 此处配置 og x 平台分享图片 图片文件放置于 static 目录下
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
