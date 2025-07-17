@@ -13,7 +13,7 @@
             <div class="relative h-48 w-full">
               {{ $img := resources.Get .Params.cover.image }}
               {{ if $img }}
-                <img src="{{ $img.RelPermalink }}" alt="封面图片" class="h-full w-auto object-cover" />
+                <img src="{{ $img.RelPermalink }}" alt="封面图片" class="h-full w-full object-cover" />
               {{ else }}
                 <p>图片未找到</p>
               {{ end }}
