@@ -1070,9 +1070,6 @@
   .bg-blue-100 {
     background-color: var(--color-blue-100);
   }
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
-  }
   .bg-gray-100\/80 {
     background-color: color-mix(in srgb, oklch(96.7% 0.003 264.542) 80%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1481,6 +1478,13 @@
 }
 [id] {
   scroll-margin-top: 5rem;
+}
+@layer utilities {
+  .prose :where(table) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
 @property --tw-rotate-x {
   syntax: "*";

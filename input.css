@@ -4,3 +4,11 @@
 [id] {
   scroll-margin-top: 5rem;
 }
+
+@layer utilities {
+  .prose :where(table) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
