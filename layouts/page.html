@@ -80,4 +80,15 @@
     </div>
   </aside>
 </div>
+<!-- 评论添加 -->
+  <div class="max-w-6xl mx-auto px-4 flex gap-8 py-4">
+    {{ partial "comments.html" }}
+    <!-- 占位 -->
+    <aside class="hidden lg:block w-64 flex-shrink-0 ">
+      <div class="sticky top-24">
+        <nav class="prose dark:prose-invert text-sm sticky top-24 max-h-[calc(100vh-8rem)] overflow-auto">
+        </nav>
+      </div>
+    </aside>
+  </div>
 {{ end }}

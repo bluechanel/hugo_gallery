@@ -27,10 +27,25 @@ params:
   ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
   hidemeta: false
   hideSummary: false
   hideFooter: true
+
+  comment: true
+
+  giscus:
+    repo: "example/example.github.io"
+    repo_id: "R_aaaaaaaQ"
+    category: "Announcements"
+    category_id: "DIC_asdasdasda"
+    mapping: "pathname"
+    strict: "0"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    input_position: "top"
+    theme: "preferred_color_scheme"
+    lang: "zh-CN"
+    loading: "lazy"
 
 
   assets:
