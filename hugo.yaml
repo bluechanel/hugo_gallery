@@ -30,6 +30,7 @@ params:
   hidemeta: false
   hideSummary: false
   hideFooter: true
+  disableGoogleAnalytics: true
 
   comment: true
 
@@ -64,7 +65,8 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "G-9QC19VEKH0"
+      SiteVerificationTag: "XYZabc"
+      AnalyticsId: "XYZabc"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
